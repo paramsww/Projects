@@ -1,0 +1,153 @@
+.homePage
+{
+    .container
+    {
+        background: #f2f2f2;
+
+        .col-sm-9
+        {
+            .col-lg-3
+            {
+                background: #fff;
+                padding: 10px;
+                margin: 6px;
+                width: 23.5%;
+                min-height: 350px;
+
+                .headingProduct
+                {
+                    color: #4a5099;
+                    font-weight: bold;
+                }
+                p
+                {
+                    color: #4a5099;
+            
+                    span
+                    {
+                        color: #000;
+                        font-weight: bold;   
+                    }
+                } 
+                img {
+                    vertical-align: middle;
+                    width: 100%;
+                    background: #f2f2f2;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                }
+
+            }
+        }
+
+        .col-sm-3
+        {
+            .col-sm-12
+            {
+                background: #fff;
+                padding: 5px;
+                margin: 5px;
+
+                h4
+                {
+                    font-weight: bold;
+                }
+                h5
+                {
+                    text-align: center;
+                    border-bottom: 1px solid #eee;
+                }
+                .btn-primary 
+                {
+                        color: #fff;
+                        background-color: #c5e09b;
+                        border-color: #c5e09b;
+                        width: 48%;
+                        float: left;
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+                    &:hover
+                        {
+                            background-color: #7cba01;
+                            border-color: #7cba01;
+                        }
+                    &.focus
+                        {
+                            background-color: #7cba01;
+                            border-color: #7cba01;
+                        }
+                
+                
+                }
+            }
+        }
+
+    }
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    .homePage
+    {
+        .container
+        {
+              
+            .col-sm-9
+            {
+                clear: both;
+
+                .col-lg-3
+                {
+                    background: #fff;
+                    padding: 10px;
+                    margin: 6px;
+                    width:100%;
+                    min-height: 350px;
+            }   }   
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-device-width: 701px) and (max-device-width: 1024px) {
+    
+    .homePage
+    {
+        .container
+        {
+              
+            .col-sm-9
+            {
+                
+                .col-lg-3
+                {
+                    background: #fff;
+                    padding: 10px;
+                    margin: 5px;
+                    width:48%;
+                    min-height: 350px;
+            }   }   
+        }
+
+        .col-sm-3
+    {
+            .col-sm-12
+            {
+                .btn-primary 
+                {
+                      width: 46% !important;
+                 
+                }
+            }
+    }
+    }
+
+    
+}
